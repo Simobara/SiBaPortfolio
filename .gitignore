@@ -1,0 +1,25 @@
+# Ignora i file di log
+*.log
+
+# Ignora i file di compilazione
+*.pyc
+__pycache__/
+
+# Ignora la cartella node_modules
+node_modules/
+
+# Ignora gli ambienti virtuali (se si utilizza un ambiente virtuale per Node.js)
+.env/
+
+# Ignora file di configurazione locali
+config.json
+
+# Ignora eventuali file temporanei
+*.tmp
+
+# Ignora eventuali file di backup creati dall'editor
+*.bak
+
+# Ignora i file di pacchetti lock (opzionale, se non vuoi versionare il lockfile)
+# package-lock.json
+# yarn.lock

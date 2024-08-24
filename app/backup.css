@@ -1,0 +1,146 @@
+
+@media screen and (max-width:779px) {
+  .custom-swiper-button-prev_why_me,
+.custom-swiper-button-next_why_me {
+  width: 26px !important; /* Adjust the size as needed */
+  height: 24px !important; /* Adjust the  size as needed */
+  background-color: var(--primary) !important; /* Adjust the background color as needed */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* border-radius: 4px; */
+  justify-content: center;
+}
+.custom-swiper-button-prev_why_me::after,
+.custom-swiper-button-next_why_me::after {
+  font-size: 14px; /* Adjust the icon size as needed */
+  color: #fff; /* Adjust the icon color as needed */  
+}
+
+.custom-swiper-button-prev_why_me{
+  position: absolute
+  ;
+  cursor: pointer !important;
+z-index: 999 !important;
+  top:98px;
+  left: 10px !important;
+  border-top-right-radius: 6px !important ;
+  border-top-left-radius: 6px !important ;
+}
+.custom-swiper-button-next_why_me{
+  border-bottom-right-radius: 6px !important ;
+  border-bottom-left-radius: 6px !important ;
+  position: absolute;
+  cursor: pointer;
+  left: 10px !important;
+z-index: 999 !important;
+top: 150px;
+}
+ .swiper-pagination-horizontal{
+  position: absolute;
+  top: 120px !important;
+  left: 10px !important;
+  font-size: x-small;
+  color: white !important;
+  /* padding: .5rem  0rem !important; */
+  height: fit-content !important;
+  background: var(--secondary) !important;
+  width: 26px !important;
+} 
+}
+@media screen and (max-width:574px) {
+  .custom-swiper-button-prev_why_me{
+    position: absolute
+    ;
+    cursor: pointer !important;
+  z-index: 999 !important;
+    top:70px;
+    left: 128px !important;
+    border-top-right-radius: 6px !important ;
+    border-top-left-radius: 6px !important ;
+  }
+  .custom-swiper-button-next_why_me{
+    border-bottom-right-radius: 6px !important ;
+    border-bottom-left-radius: 6px !important ;
+    position: absolute;
+    cursor: pointer;
+    left: 128px !important;
+  z-index: 999 !important;
+  top: 150px;
+  }
+   .swiper-pagination-horizontal{
+    position: absolute;
+    top: 120px !important;
+    left: 128px !important;
+    font-size: x-small;
+    color: white !important;
+    /* padding: .5rem  0rem !important; */
+    height: fit-content !important;
+    background: var(--secondary) !important;
+    width: 26px !important;
+  } 
+}
+@media screen and (max-width:574px) {
+  .custom-swiper-button-prev_why_me{
+    position: absolute
+    ;
+    cursor: pointer !important;
+  z-index: 999 !important;
+    top:70px;
+    left: 114px !important;
+    border-top-right-radius: 6px !important ;
+    border-top-left-radius: 6px !important ;
+  }
+  .custom-swiper-button-next_why_me{
+    border-bottom-right-radius: 6px !important ;
+    border-bottom-left-radius: 6px !important ;
+    position: absolute;
+    cursor: pointer;
+    left: 114px !important;
+  z-index: 999 !important;
+  top: 120px;
+  }
+   .swiper-pagination-horizontal{
+    position: absolute;
+    top: 90px !important;
+    left: 114px !important;
+    font-size: x-small;
+    color: white !important;
+    /* padding: .5rem  0rem !important; */
+    height: fit-content !important;
+    background: var(--secondary) !important;
+    width: 26px !important;
+  } 
+}
+@media screen and (max-width:474px) {
+  .custom-swiper-button-prev_why_me{
+    position: absolute
+    ;
+    cursor: pointer !important;
+  z-index: 999 !important;
+    top:70px;
+    left: 99px !important;
+    border-top-right-radius: 6px !important ;
+    border-top-left-radius: 6px !important ;
+  }
+  .custom-swiper-button-next_why_me{
+    border-bottom-right-radius: 6px !important ;
+    border-bottom-left-radius: 6px !important ;
+    position: absolute;
+    cursor: pointer;
+    left: 99px !important;
+  z-index: 999 !important;
+  top: 120px;
+  }
+   .swiper-pagination-horizontal{
+    position: absolute;
+    top: 90px !important;
+    left: 99px !important;
+    font-size: x-small;
+    color: white !important;
+    /* padding: .5rem  0rem !important; */
+    height: fit-content !important;
+    background: var(--secondary) !important;
+    width: 26px !important;
+  } 
+}

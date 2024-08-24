@@ -1,0 +1,747 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('./styles//color.css');
+@import url('./styles/fontFamily.css');
+* {
+  font-family: 'plusJakara_regular';
+  box-sizing: border-box !important;
+}
+
+
+/* font-families classes of poppins */
+
+.poppins_regular {
+  font-family: 'poppins_regular';
+}
+
+.poppins_bold {
+  font-family: "poppins_bold";
+}
+
+.poppins_medium {
+  font-family: "poppins_medium";
+}
+
+.poppins_semibold {
+  font-family: "poppins_semibold";
+}
+
+.poppins_light {
+  font-family: "poppins_light";
+}
+
+
+/* font-families classes of manrope */
+
+.manrope_regular {
+  font-family: 'manrope_regular';
+}
+
+.manrope_bold {
+  font-family: "manrope_bold";
+}
+
+.manrope_medium {
+  font-family: "manrope_medium";
+}
+
+.manrope_semibold {
+  font-family: "manrope_semibold";
+}
+
+.manrope_light {
+  font-family: "manrope_light";
+}
+
+.ant-dropdown-menu {
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+/* font-families classes of plusJakara */
+
+.plusJakara_regular {
+  font-family: 'poppins_regular';
+}
+
+.plusJakara_bold {
+  font-family: "poppins_bold";
+}
+
+.plusJakara_medium {
+  font-family: "poppins_medium";
+}
+
+.plusJakara_semibold {
+  font-family: "poppins_semibold";
+}
+
+.plusJakara__light {
+  font-family: "poppins_light";
+}
+
+
+.reviewBg{
+  background-color: var(--reviewBg);
+}
+.plusJakara_semibold {
+  font-family: "plusJakara_semibold";
+}
+
+.plusJakara_light {
+  font-family: "plusJakara_light";
+}
+
+
+/* font-families classes of inter */
+
+.inter_regular {
+  font-family: 'inter_regular';
+}
+
+.inter_bold {
+  font-family: "inter_bold";
+}
+
+.inter_medium {
+  font-family: "inter_medium";
+}
+
+.inter_semibold {
+  font-family: "inter_semibold";
+}
+
+.inter_light {
+  font-family: "inter_light";
+}
+/* text color classes----------------- */
+.text-primary{
+  color: var(--primary) !important
+}
+.bg-primary{
+  background-color: var(--primary) !important
+}
+.text-secondary{
+  color: var(--secondary) !important
+}
+.bg-secondary{
+  background-color: var(--secondary) !important
+}
+.text-purple{
+  color: var(--lightprimary) !important
+}
+.bg-purple{
+  background-color: var(--lightprimary) !important
+}
+.bg_none{
+  background-color: white !important;
+}
+.text-black{
+  color: black !important
+}
+.bg-black{
+  background-color: black !important
+}
+.text-white{
+  color: var(--white) !important
+}
+.bg-white{
+  background-color: var(--white) !important
+}
+.bg-gray{
+  background-color: var(--gray) !important
+}
+.text-gray{
+  color: var(--gray) !important
+}
+.bg-aqua{
+  background-color: var(--aqua) !important;
+}
+.text-yellow{
+color: var(--yellow) !important
+}
+.bg-yellow{
+  background-color: var(--yellow) !important
+}
+.text-aqua{
+  color: var(--aqua) !important
+}
+/* Import Tailwind CSS base styles */
+@tailwind base;
+
+/* Import Tailwind CSS component styles */
+@tailwind components;
+
+/* Import Tailwind CSS utility styles */
+@tailwind utilities;
+
+/* CSS Custom Properties */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 34, 34, 34;
+  }
+}
+
+/* Global Styles */
+body {
+  
+  @apply antialiased;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    ),
+    rgb(var(--background-start-rgb));
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+p {
+  @apply my-4;
+}
+
+ul, ol {
+  @apply list-inside list-disc;
+  list-style-type: none;
+
+  padding-left: 1rem;
+}
+a {
+  list-style-type: none;
+  text-decoration: none !important; 
+
+}
+/* .a_tag:hover{
+  background-color:red !important;
+ 
+} */
+.a_tag {
+  background-color: #6e97b3 !important;
+}
+@media screen and (max-width: 1278px) and (min-width: 300px) {
+}
+
+p{
+  margin: 0%;
+  padding: 0%;
+}
+/* Custom Utility Classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.fs{
+  font-size: 14px;
+}
+/* Reset Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Responsive Typography */
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  h5 {
+    @apply text-lg md:text-xl;
+  }
+
+  h6 {
+    @apply text-base md:text-lg;
+  }
+}
+/* main page css starts----------------- */
+
+/* header css--------------- */
+/* .nav_shadow {
+  padding-bottom: 0.4rem !important;
+  padding-top: 0.4rem !important;
+  background-color:var(--primary) !important;
+  transition: 0.3s; 
+  box-shadow: 7px 9px 74.313px rgba(0, 0, 0, 0.1);
+} */
+.nav_shadow {
+  padding-bottom: 0.4rem !important;
+  padding-top: 0.4rem !important;
+  color: black !important;
+  background-color: rgba(255, 255, 255, 0.3) !important; /* Adjust the RGBA values as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  transition: 0.3s;
+  box-shadow: 7px 9px 74.313px rgba(0, 0, 0, 0.1);
+}
+
+  .pills_uls{
+    /* border-radius: 20px;
+    background-color: #212c5a !important;
+    border: 2px solid gold;
+    padding:.3rem 1rem !important;
+    color: white !important; */
+  }
+  .pills_uls2{
+    background-color: transparent !important;
+    color: var(--secondary) !important;
+  }
+  .pills_uls:hover{
+    /* background-color: #212c5a !important; */
+    border-radius: 20px;
+    /* padding:.3rem 1rem !important; */
+  }
+.main_nav .dropdown-menu.show {
+  display: flex !important;
+  flex-direction: column;
+  background-color: var(--white) !important;
+  flex-wrap: nowrap;
+  width: max-content;
+}
+.toggler_bg:focus{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.toggler_bg2:focus{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.toggler_bg2{
+  outline: none !important;
+  color: white !important;
+}
+.upl_bg{
+  background-color: var(--white) !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+/* .border_classs{
+  border: 2px solid gold !important;
+} */
+.border_classs_not{
+  border: none !important;
+
+}
+.main_nav .nav-link {
+  padding: 0;
+}
+/* banner section css ----------- */
+.gradient-border {
+  padding-bottom: 1px; 
+  position: relative; /* Ensure this is included in CSS too */
+}
+
+.gradient-border::after {
+  content: '';
+  position: absolute; /* This is crucial for the pseudo-element to be positioned correctly */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px; 
+  background: linear-gradient(to right, #e7e5e5, #dbd9f3, #8B8B8B); /* Your desired gradient */
+}
+
+
+.gradiant_bg {
+    height: 149px;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff);
+}
+.scroll_down_div {
+    margin-top: -9.2rem;
+}
+
+.white_div{
+  display: block;
+  content: '';
+  width: 83%;
+  height: 2px;
+  background-color: var(--white);
+}
+.texture_image {
+  background-image: url('/app/assets/png/bg-texture.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+   /* Ensure the background covers the element */
+  /* Optionally, add other styles like background-position if needed */
+}
+/* PodiatristSwiper.css */
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+  width: 50px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the  size as needed */
+  background-color: var(--white) !important; /* Adjust the background color as needed */
+  display: flex;
+  
+  align-items: center;
+  cursor: pointer;
+  border-radius: 7px;
+  
+  justify-content: center;
+}
+
+.custom-swiper-button-prev::after,
+.custom-swiper-button-next::after {
+  font-size: 14px; /* Adjust the icon size as needed */
+  color: #fff; /* Adjust the icon color as needed */  
+}
+.custom-swiper-button-prev{
+  position: absolute
+  ;
+  cursor: pointer !important;
+z-index: 999 !important;
+  top: 100px;
+}
+.custom-swiper-button-next{
+  position: absolute
+  ;
+  cursor: pointer;
+  right: 10px;
+z-index: 999 !important;
+top: 100px;
+
+}
+@media screen and (max-width:1290px) {
+  .custom-swiper-button-prev{
+    position: absolute
+    ;
+    cursor: pointer !important;
+  z-index: 999 !important;
+    bottom: 0px;
+  }
+  .custom-swiper-button-next{
+    position: absolute
+    ;
+    cursor: pointer;
+
+  z-index: 999 !important;
+  
+  }
+  
+}
+.location_ {
+  /* Adjust these properties as needed */
+  background-image: url('/app/assets/png/bg-texture.jpeg');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  height: 100vh; /* Adjust to fit your layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blurred_bg {
+  
+  height: 149px;
+  background: linear-gradient(#F0F5FC, rgba(228, 244, 255, 0.8));
+  backdrop-filter: blur(10px); /* Adds blur effect */
+  /* Optional: Additional styles for positioning and size */
+ 
+  overflow: hidden;
+}
+.privacy_btn{
+  background-color: white;
+  border-radius: 2px;
+  font-size: 10px;
+  border: 1px solid rgb(204, 200, 200);
+}
+.blur{
+       
+  /* position: absolute; */
+  width: 100%;
+  border-radius: 50%;
+  background: #edd0ff;
+   filter:blur(212px);
+  z-index: -9;
+  top:2%;
+  left:35%;
+   filter: blur(72px)     }
+   .blur_smoke{
+    width: 100%;
+  height: 14rem;
+  border-radius: 50%;
+  background: #e0dce2;
+   filter:blur(212px);
+   filter: drop-shadow(#e0dce2);
+  z-index: 1099 !important;
+  bottom:-300px;
+  left:35%;
+   }
+   .phone_:hover {
+    border-bottom: 1px solid var(--lightprimary) !important;
+    box-sizing: border-box !important;
+
+  }
+  input:focus{
+    border: none !important;
+    background-color: rgba(252, 247, 244, 1);
+    color: var(--lightprimary) !important;
+    outline: none !important;
+  }
+  input:focus::placeholder{
+    color: var(--lightprimary) !important;
+
+  }
+  textarea:focus::placeholder{
+    color: var(--lightprimary) !important;
+
+  }
+  textarea:focus{
+    border: none !important;
+    outline: none !important;
+    background-color: rgba(252, 247, 244, 1);
+
+  }
+  .privacy_btn:hover{
+    background-color: rgb(231, 227, 227) !important;
+
+  }
+  .mySwiper {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+.mySwiper{
+  /* display: flex;
+  justify-content: center; */
+}
+  .contact_text{
+    color: rgb(255, 255, 255, .66);
+    font-size: 1.4rem !important;
+  }
+  .contact_text:hover{
+    color: white !important;
+    cursor: pointer;
+  }
+  .bg_fixed {
+    background-attachment: fixed;
+    background-image: url('./assets/png/bg_fixed.jpg');
+    min-height: 22rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.custom-swiper-button-prev_review,
+.custom-swiper-button-next_review {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the  size as needed */
+  background-color: #d8d9da !important; /* Adjust the background color as needed */
+  display: flex;
+  
+  align-items: center;
+  cursor: pointer;
+  border-radius: 140px;
+  
+  justify-content: center;
+}
+
+.custom-swiper-button-prev_review::after,
+.custom-swiper-button-next_review::after {
+  font-size: 14px; /* Adjust the icon size as needed */
+  color: #fff; /* Adjust the icon color as needed */  
+}
+.custom-swiper-button-prev_review{
+  position: absolute
+  ;
+  cursor: pointer !important;
+z-index: 999 !important;
+  top: 150px;
+  left: 1px;
+
+}
+.custom-swiper-button-next_review{
+  position: absolute
+  ;
+  cursor: pointer;
+  right: 1px;
+z-index: 999 !important;
+top: 150px;
+
+}
+.whatsapp-btn img {
+  position: fixed;
+  bottom: 30px;
+  right: 3%;
+  border: none;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 transparent;
+  /* font-size: 50px; */
+  cursor: pointer;
+  z-index: 99;
+}
+.custom-swiper-button-prev_why_me,
+.custom-swiper-button-next_why_me {
+  width: 42px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the  size as needed */
+  background-color: var(--primary) !important; /* Adjust the background color as needed */
+  display: flex;
+  
+  align-items: center;
+  cursor: pointer;
+  /* border-radius: 4px; */
+  
+  justify-content: center;
+}
+
+.custom-swiper-button-prev_why_me::after,
+.custom-swiper-button-next_why_me::after {
+  font-size: 14px; /* Adjust the icon size as needed */
+  color: #fff; /* Adjust the icon color as needed */  
+}
+.custom-swiper-button-prev_why_me::before{
+}
+.custom-swiper-button-prev_why_me{
+  position: absolute
+  ;
+  cursor: pointer !important;
+z-index: 999 !important;
+  top: 79px;
+  left: 45px;
+  border-top-right-radius: 6px !important ;
+  border-top-left-radius: 6px !important ;
+
+
+
+}
+.custom-swiper-button-next_why_me{
+  border-bottom-right-radius: 6px !important ;
+  border-bottom-left-radius: 6px !important ;
+  position: absolute
+  ;
+  cursor: pointer;
+  left: 45px !important;
+z-index: 999 !important;
+top: 150px;
+
+}
+ .swiper-pagination-horizontal{
+  position: absolute;
+  top: 118px !important;
+  left: 45px !important;
+  font-size: small;
+  color: white !important;
+  padding: .5rem  0rem !important;
+  height: fit-content !important;
+  background: var(--secondary) !important;
+  width: 42px !important;
+}
+.toggler_bg{
+  color: black !important;
+  outline: none !important;
+}
+.ul_bg{
+  background-color: white !important;
+  color: var(--secondary) !important;
+
+}
+@media screen and (max-width:574px) {
+  .custom-swiper-button-prev_why_me{
+    position: absolute
+    ;
+    cursor: pointer !important;
+  z-index: 999 !important;
+    top:80px;
+    left: 20px !important;
+    border-top-right-radius: 6px !important ;
+    border-top-left-radius: 6px !important ;
+  }
+  .custom-swiper-button-next_why_me{
+    border-bottom-right-radius: 6px !important ;
+    border-bottom-left-radius: 6px !important ;
+    position: absolute;
+    cursor: pointer;
+    left: 20px !important;
+  z-index: 999 !important;
+  top: 150px;
+  }
+   .swiper-pagination-horizontal{
+    position: absolute;
+    top: 120px !important;
+    left: 20px !important;
+    font-size: x-small;
+    color: white !important;
+    /* padding: .5rem  0rem !important; */
+    height: fit-content !important;
+    background: var(--secondary) !important;
+    width: 42px !important;
+  } 
+}
+@media screen and (max-width:416px) {
+  .custom-swiper-button-prev_why_me{
+    position: absolute
+    ;
+    cursor: pointer !important;
+  z-index: 999 !important;
+    top:80px;
+    left: 10px !important;
+    border-top-right-radius: 6px !important ;
+    border-top-left-radius: 6px !important ;
+  }
+  .custom-swiper-button-next_why_me{
+    border-bottom-right-radius: 6px !important ;
+    border-bottom-left-radius: 6px !important ;
+    position: absolute;
+    cursor: pointer;
+    left: 10px !important;
+  z-index: 999 !important;
+  top: 150px;
+  }
+   .swiper-pagination-horizontal{
+    position: absolute;
+    top: 120px !important;
+    left: 10px !important;
+    font-size: x-small;
+    color: white !important;
+    /* padding: .5rem  0rem !important; */
+    height: fit-content !important;
+    background: var(--secondary) !important;
+    width: 42px !important;
+  } 
+}

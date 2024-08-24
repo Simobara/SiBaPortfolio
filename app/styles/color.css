@@ -1,0 +1,23 @@
+/* :root {
+    --primary: #5ebfc6;
+    --lightprimary: #8B2F8E;
+    --secondary: #71706F;
+    --gray: #F0F1F6;
+    --black: #000;
+    --yellow:#F6BB06;
+    --aqua : #E4F4FF;
+    --reviewBg:#FBFCFD;
+    --white: #FFF;
+} */
+:root {
+    --primary: #001f3e;
+    --lightprimary: #073358;
+    --secondary: #466174;
+    --gray: #F0F1F6;
+    --black: #000;
+    --yellow:#F6BB06;
+    --aqua : #E4F4FF;
+    --reviewBg:#FBFCFD;
+    --white: #FFF;
+}
+
