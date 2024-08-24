@@ -17,7 +17,7 @@
 
 ## Demo
 
-![Finished App](wsite.jpg)
+![Finished App](simobara.png)
 
 ---
 
